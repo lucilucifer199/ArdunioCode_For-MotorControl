@@ -1,9 +1,9 @@
 #include <AFMotor.h>
 
-AF_DCMotor motor1(1);
-AF_DCMotor motor2(2);
-AF_DCMotor motor3(3);
-AF_DCMotor motor4(4);
+AF_DCMotor motor1(1);  //for motor shield terminal M1
+AF_DCMotor motor2(2);  //for motor shield terminal M2
+AF_DCMotor motor3(3);  //for motor shield terminal M3
+AF_DCMotor motor4(4);  //for motor shield terminal M4
 
 void setup() {
   // put your setup code here, to run once:
